@@ -6,8 +6,9 @@
 
 - [Next.js](https://nextjs.org/)
 - [Typescript](https://typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/) for styling
 - [SWR](https://swr.vercel.app/) for data fetching + caching
+- [Zustand](https://zustand-demo.pmnd.rs/) for state management
 
 ## Linter
 
