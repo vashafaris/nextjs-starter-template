@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'jsx-a11y/anchor-is-valid': 'off',
     'new-cap': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
   settings: {
     'import/resolver': {
