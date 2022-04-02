@@ -7,7 +7,7 @@ let state: 'loading' | 'stop';
 let activeRequests = 0;
 const delay = 250;
 
-function load() {
+const load = () => {
   if (state === 'loading') {
     return;
   }
@@ -17,9 +17,9 @@ function load() {
   timer = setTimeout(() => {
     NProgress.start();
   }, delay); // only show progress bar if it takes longer than the delay
-}
+};
 
-function stop() {
+const stop = () => {
   if (activeRequests > 0) {
     return;
   }
@@ -28,7 +28,7 @@ function stop() {
 
   clearTimeout(timer);
   NProgress.done();
-}
+};
 
 Router.events.on('routeChangeStart', load);
 Router.events.on('routeChangeComplete', stop);
