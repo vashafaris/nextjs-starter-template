@@ -11,6 +11,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'jsx-a11y/anchor-is-valid': 'off',
+    'jsx-a11y/accessible-emoji': 'off',
     'new-cap': 'off',
     'react/react-in-jsx-scope': 'off',
   },
