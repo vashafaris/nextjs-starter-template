@@ -1,4 +1,4 @@
-# Nextjs Starter Template
+# Next.js Starter Template [![CI](https://github.com/vashafaris/nextjs-starter-template/actions/workflows/ci.yml/badge.svg)](https://github.com/vashafaris/nextjs-starter-template/actions/workflows/ci.yml)
 
 > Personal template to make life easier
 
