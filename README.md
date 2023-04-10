@@ -46,7 +46,8 @@ We use [Next.js API routes](https://nextjs.org/docs/api-routes/introduction) to 
 ### Directory structure
 
 - `components/` - UI/layout components that are used globally throughout project.
-- `lib/` - Shared utility/helper functions.
+- `hooks/` - Reusable hooks.
+- `utilities/` - Shared utility/helper functions.
 - `modules/` - Each feature and their business logic goes into this folder.
 - `pages/` - Next.js pages. Please read this page for more info about them.
   - `api/` - Next.js API routes. This is where the application's API/backend goes.
