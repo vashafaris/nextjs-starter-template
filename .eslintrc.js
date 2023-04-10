@@ -12,8 +12,10 @@ module.exports = {
   rules: {
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/accessible-emoji': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
     'new-cap': 'off',
     'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
   settings: {
     'import/resolver': {

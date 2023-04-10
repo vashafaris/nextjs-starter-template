@@ -7,7 +7,7 @@
     "baseUrl": ".",
     "paths": {
       "~/components/*": ["components/*"],
-      "~/lib/*": ["lib/*"],
+      "~/utilities/*": ["utilities/*"],
       "~/modules/*": ["modules/*"],
       "~/pages/*": ["pages/*"],
       "~/types/*": ["types/*"]
