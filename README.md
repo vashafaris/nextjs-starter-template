@@ -4,8 +4,8 @@
 
 ## Stack used
 
-- [Next.js](https://nextjs.org/)
 - [Typescript](https://typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [SWR](https://swr.vercel.app/) for data fetching + caching
 - [Zustand](https://zustand-demo.pmnd.rs/) for state management
@@ -18,23 +18,23 @@
 
 ## Developing
 
-A Node.js LTS setup with [yarn (v1)](https://yarnpkg.com/) is recommended.
+A Node.js LTS setup with [pnpm](https://pnpm.io/) is recommended.
 
 ```bash
 # install dependencies
-yarn
+pnpm
 
 # serve with hot reload at localhost:3000
-yarn dev
+pnpm dev
 
 # build for production
-yarn build
+pnpm build
 
 # run lint + type check
-yarn validate
+pnpm validate
 
 # run unit tests
-yarn test
+pnpm test
 ```
 
 ## Architecture
