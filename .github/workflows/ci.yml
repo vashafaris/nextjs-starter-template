@@ -21,11 +21,16 @@ jobs:
           node-version: '16'
           cache: 'pnpm'
 
+      - name: ⎔ Setup pnpm
+        uses: pnpm/action-setup@v2
+          with:
+            version: 8.3.1
+
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Perform testing
-        run: yarn test:ci --coverage
+        run: pnpm test:ci --coverage
 
       - name: Perform build source
-        run: yarn build
+        run: pnpm build
