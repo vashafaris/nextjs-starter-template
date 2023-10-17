@@ -34,3 +34,16 @@ jobs:
 
       - name: Perform build source
         run: pnpm build
+
+      - name: Generate Lighthouse Report
+        uses: justinribeiro/lighthouse-action@master
+        with:
+          secret: ${{ secrets.GITHUB_TOKEN }}
+          url: https://www.youtube.com/
+          wptConnectionSpeed: threegfast
+
+      - name: Saving Lighthouse Audit Artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: lighthouse-artifacts
+          path: './results'
