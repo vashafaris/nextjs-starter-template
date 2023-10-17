@@ -39,7 +39,7 @@ jobs:
         uses: justinribeiro/lighthouse-action@master
         with:
           secret: ${{ secrets.GITHUB_TOKEN }}
-          url: https://${{ github.sha }}-dot-${{ secrets.GAE_PID }}.appspot.com
+          url: https://www.youtube.com/
           wptConnectionSpeed: threegfast
 
       - name: Saving Lighthouse Audit Artifacts
